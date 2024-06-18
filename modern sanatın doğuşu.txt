@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanat Blogu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        article {
+            background: #fff;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #333;
+            background: #e2e2e2;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #d4d4d4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanat Blogu</h1>
+    </header>
+    <div class="container">
+        <article>
+            <h2>Hoş Geldiniz</h2>
+            <p>Sanat dünyasına olan ilgimle bu blogu oluşturdum. Burada resim, heykel ve diğer sanat dalları hakkında düşüncelerimi ve beğendiğim eserleri paylaşacağım.</p>
+        </article>
+        <article>
+            <h2>Modern Sanatın Doğuşu ve Etkileri</h2>
+            <p>Sanat tarihi boyunca birçok dönem ve akım görülmüştür, ancak 19. yüzyılın sonları ve 20. yüzyılın başları, sanat dünyasında büyük değişimlerin yaşandığı bir dönemi işaret eder. Bu dönem, geleneksel sanat anlayışlarının sorgulandığı ve yeni ifade biçimlerinin ortaya çıktığı modern sanatın doğuşunu müjdeledi.</p>
+            <h3>Modern Sanat Nedir?</h3>
+            <p>Modern sanat, 1860'lar ile 1970'ler arasındaki dönemi kapsayan ve geleneksel sanat tekniklerinden uzaklaşarak yenilikçi ve deneysel yaklaşımlar sergileyen sanat hareketlerini ifade eder. Bu dönemde sanatçılar, bireysel ifade özgürlüğünü ön plana çıkararak, sosyal ve politik konuları eserlerinde işlemeye başladılar. Klasik perspektif ve kompozisyon kurallarını yıkarak, daha soyut ve subjektif anlatım biçimleri geliştirdiler.</p>
+            <h3>Öne Çıkan Modern Sanat Akımları</h3>
+            <ul>
+                <li><strong>Empresyonizm:</strong> 19. yüzyılın sonlarında Fransa'da ortaya çıkan Empresyonizm, sanatçıların ışık ve renk oyunlarını kullanarak doğrudan doğadan esinlendikleri bir akımdır. Claude Monet, Edgar Degas ve Pierre-Auguste Renoir bu akımın öncü isimlerindendir.</li>
+                <li><strong>Kübizm:</strong> 20. yüzyılın başlarında Pablo Picasso ve Georges Braque tarafından geliştirilen Kübizm, nesneleri geometrik şekillerle parçalara ayırarak farklı açılardan yeniden bir araya getiren bir tarzdır. Bu akım, sanatın temsil biçiminde radikal bir değişim yarattı.</li>
+                <li><strong>Dadaizm:</strong> I. Dünya Savaşı'nın yıkıcı etkilerine tepki olarak 1916'da Zürich'te başlayan Dadaizm, sanatta mantık ve estetik normlara meydan okuyan bir hareketti. Marcel Duchamp, Dadaistlerin en bilinen isimlerinden biridir ve "Fountain" adlı eseriyle sanat dünyasında büyük bir etki yaratmıştır.</li>
+                <li><strong>Soyut Ekspresyonizm:</strong> 1940'lar ve 1950'lerde Amerika'da gelişen Soyut Ekspresyonizm, sanatçıların duygusal ve spontane ifadelerini büyük tuval yüzeylerine yansıttıkları bir akımdır. Jackson Pollock ve Mark Rothko gibi sanatçılar, bu hareketin önde gelen temsilcilerindendir.</li>
+            </ul>
+            <h3>Modern Sanatın Etkileri</h3>
+            <p>Modern sanat, sadece sanat dünyasında değil, aynı zamanda toplumsal ve kültürel alanlarda da büyük etkiler yarattı. Sanatçılar, eserlerinde savaşın dehşetini, sanayileşmenin etkilerini ve bireysel özgürlüğün önemini vurguladılar. Bu dönemde sanat, izleyicileri düşündürmeye ve tartışmaya teşvik eden güçlü bir araç haline geldi.</p>
+            <p>Modern sanatın getirdiği yenilikçi yaklaşımlar, günümüzdeki çağdaş sanat akımlarına da ilham kaynağı olmuştur. Sanatçılar, geleneksel sınırları zorlayarak, yeni ifade biçimleri geliştirmeye devam ediyor.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Les_Demoiselles_d%27Avignon.jpg" alt="Pablo Picasso - Les Demoiselles d'Avignon">
+            <p>Yukarıdaki resim, Pablo Picasso'nun ünlü eseri "Les Demoiselles d'Avignon". Bu eser, modern sanatın ve Kübizm akımının önemli örneklerinden biridir.</p>
+        </article>
+    </div>
+</body>
+</html>
